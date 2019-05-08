@@ -10,6 +10,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
+        //translates es6 and jsx
         loader: 'babel-loader'
       }
     ]
